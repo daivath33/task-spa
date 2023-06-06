@@ -1,6 +1,4 @@
 import { useEffect, useState } from "react";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
 
 const SpaNews = () => {
   const [news, setNews] = useState([]);
@@ -24,7 +22,6 @@ const SpaNews = () => {
 
   return (
     <>
-      <Header />
       <div className="layout">
         <h2> Spa Naujienos</h2>
         <div className="spa-news">
@@ -36,7 +33,6 @@ const SpaNews = () => {
           ))}
         </div>
       </div>
-      <Footer />
     </>
   );
 };

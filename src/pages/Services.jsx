@@ -1,11 +1,8 @@
 import React from "react";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
 
 const Services = () => {
   return (
-    <>
-      <Header />
+    <React.Fragment>
       <div className="layout">
         <h2> SPA centre teikiamos paslaugos</h2>
         <div className="services">
@@ -35,8 +32,7 @@ const Services = () => {
           </div>
         </div>
       </div>
-      <Footer />
-    </>
+    </React.Fragment>
   );
 };
 

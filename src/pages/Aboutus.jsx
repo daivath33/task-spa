@@ -1,12 +1,9 @@
 import React from "react";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
 import Image2 from "./../images/spa2.png";
 
 const Aboutus = () => {
   return (
-    <>
-      <Header />
+    <React.Fragment>
       <div className="layout">
         <h2>Apie mus</h2>
         <img src={Image2} alt="" className="aboutus-img" />
@@ -20,8 +17,7 @@ const Aboutus = () => {
           nostrum dolor. Quasi, fugit nam.
         </p>
       </div>
-      <Footer />
-    </>
+    </React.Fragment>
   );
 };
 

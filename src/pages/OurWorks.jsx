@@ -1,7 +1,4 @@
 import React from "react";
-import Header from "../components/Header";
-import { AiOutlineUser, AiOutlineMail } from "react-icons/ai";
-import Footer from "../components/Footer";
 import Service1 from "./../images/service1.png";
 import Service2 from "./../images/service2.png";
 import Service3 from "./../images/service3.png";
@@ -13,8 +10,7 @@ import Service8 from "./../images/service8.png";
 
 const OurWorks = () => {
   return (
-    <div>
-      <Header />
+    <React.Fragment>
       <div className="layout">
         <h2> SPA centre suteiktos paslaugos</h2>
         <div className="photos">
@@ -28,9 +24,7 @@ const OurWorks = () => {
           <img src={Service8} alt="" />
         </div>
       </div>
-
-      <Footer />
-    </div>
+    </React.Fragment>
   );
 };
 

@@ -1,6 +1,4 @@
 import "./Contacts.css";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
 import { useState } from "react";
 
 const Contacts = () => {
@@ -24,7 +22,6 @@ const Contacts = () => {
 
   return (
     <>
-      <Header />
       <div className="layout">
         <h2>Pateikite atsiliepima apie musu paslaugas</h2>
         <form className="contact-form" onSubmit={submitFormHandler}>
@@ -65,7 +62,6 @@ const Contacts = () => {
           </div>
         </form>
       </div>
-      <Footer />
     </>
   );
 };
